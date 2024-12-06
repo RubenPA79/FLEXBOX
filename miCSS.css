@@ -1,0 +1,90 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #f5f5f5;
+}
+
+p {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    width: 95%;
+    height: 100px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav */
+.nav {
+    width: 95%;
+    height: 50px;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main container */
+.main-container {
+    display: flex;
+    width: 95%;
+    gap: 10px;
+}
+
+/* Article */
+.article {
+    flex: 2;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.article header,
+.article section,
+.article footer {
+    border: 1px solid purple;
+    padding: 10px;
+}
+
+/* Aside container */
+.aside-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aside-container aside {
+    height: 100px;
+    border: 2px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+.footer {
+    width: 95%;
+    height: 50px;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
